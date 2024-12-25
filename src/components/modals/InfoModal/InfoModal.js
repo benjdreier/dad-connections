@@ -19,9 +19,9 @@ function InfoModal() {
       actionButtonText="Got It!"
     >
       <Tabs defaultValue="how-to-play">
-        <TabsList className="grid w-full grid-cols-2">
+        <TabsList className="grid w-full grid-cols-1">
           <TabsTrigger value="how-to-play">How To Play</TabsTrigger>
-          <TabsTrigger value="about-us">About Us</TabsTrigger>
+          {/* <TabsTrigger value="about-us">About Us</TabsTrigger> */}
         </TabsList>
         <TabsContent value="how-to-play">
           {" "}
@@ -47,7 +47,7 @@ function InfoModal() {
             </AccordionItem>
           </Accordion>
         </TabsContent>
-        <TabsContent value="about-us">
+        {/* <TabsContent value="about-us">
           {" "}
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
@@ -141,7 +141,7 @@ function InfoModal() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-        </TabsContent>
+        </TabsContent> */}
       </Tabs>
     </BaseModal>
   );
