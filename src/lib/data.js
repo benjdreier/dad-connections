@@ -161,7 +161,7 @@ export const CONNECTION_GAMES = [
       difficulty: 1,
     },
     {
-      category: "Employers of the members of the Yale board of trustees",
+      category: "Employers Of Members Of The Yale Board Of Trustees",
       words: ["Morehouse", "Comcast", "Connecticut", "Yale"],
       difficulty: 2,
     },

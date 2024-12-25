@@ -43,12 +43,13 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 function CountdownToNextPuzzle() {
   return (
     <div className="flex flex-row place-content-center mt-4">
-      <Countdown
+      Merry Christmas To All! And To All, A Good Dad!
+      {/* <Countdown
         className="text-lg text-gray-900"
         renderer={renderer}
         date={dateOfNextPuzzle}
         intervalDelay={1000}
-      />
+      /> */}
     </div>
   );
 }

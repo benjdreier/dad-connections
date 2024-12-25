@@ -13,6 +13,7 @@ import { GameStatusContext } from "../../providers/GameStatusProvider";
 import GameControlButtonsPanel from "../GameControlButtonsPanel";
 
 import ViewResultsModal from "../modals/ViewResultsModal";
+import { resetGameState } from "../../../src/lib/local-storage";
 
 function Game() {
   const { gameData, categorySize, numCategories } =
@@ -104,7 +105,10 @@ function Game() {
             />
           </>
         ) : (
-          <ViewResultsModal />
+          <>
+            <ViewResultsModal />
+            <button onClick={resetGameState}>Reset And Play Again</button>
+          </>
         )}
       </div>
     </>

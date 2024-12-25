@@ -19,3 +19,8 @@ export const loadStatsFromLocalStorage = () => {
   const stats = localStorage.getItem(gameStatKey);
   return stats ? JSON.parse(stats) : null;
 };
+
+export const resetGameState = () => {
+  saveGameStateToLocalStorage({})
+  location.reload()
+}
