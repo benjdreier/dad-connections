@@ -1484,7 +1484,6 @@ h1 {
   padding-right: var(--game-spacing);
   flex-direction: column;
   flex: 1;
-  min-width: max(300px, 55vh, 40%);
   max-width: min(500px, 58vh, 100%);
   margin: 0 auto;
   display: flex;
