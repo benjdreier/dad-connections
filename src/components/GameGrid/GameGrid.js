@@ -23,11 +23,12 @@ function WordRow({ words }) {
 
 export function SolvedWordRow({ ...props }) {
   const DIFFICULTY_COLOR_MAP = {
-    1: "rgb(74 222 128)", // green
-    2: "rgb(251 191 36)", // amber
-    3: "rgb(129 140 248)", //indigo
-    4: "rgb(0 0 255)", // TODO
-    5: "rgb(34 211 238)", //cyan
+    1: "rgb(245 224 126)", // yellow
+    2: "rgb(167 194 104)", // green
+    3: "rgb(180 195 235)", // violet
+    4: "rgb(242, 166, 166)", // coral?
+    5: "rgb(114, 182, 188)", // teal?
+    6: "rgb(178 131 193)", // purple
   };
 
   const color = `${DIFFICULTY_COLOR_MAP[props.difficulty]}`;

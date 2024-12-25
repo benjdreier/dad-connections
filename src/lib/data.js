@@ -155,31 +155,36 @@
 
 export const CONNECTION_GAMES = [
   [
-  {
-    category: "California Rappers",
-    words: ["A", "AA", "AAA", "AAAA"],
-    difficulty: 1,
-  },
-  {
-    category: "Black Founded Clothing Brands",
-    words: ["B", "BB", "BBB", "BBBB"],
-    difficulty: 2,
-  },
-  {
-    category: "Hair Cut Styles",
-    words: ["C", "CC", "CCC", "CCCC"],
-    difficulty: 3,
-  },
-  {
-    category: "Black Mayors",
-    words: ["D", "DD", "DDD", "DDDD"],
-    difficulty: 4,
-    imageSrc: "https://i.ibb.co/pP1xn0Z/Connections.png",
-  },
-  {
-    category: "Mystery",
-    words: ["Are", "You", "THere", "God"],
-    difficulty: 5,
-    // imageSrc: "https://i.ibb.co/pP1xn0Z/Connections.png",
-  },]
+    {
+      category: "States Where Dad Lived",
+      words: ["New York", "Maryland", "Massachusetts", "Oklahoma"],
+      difficulty: 1,
+    },
+    {
+      category: "Employers of the members of the Yale board of trustees",
+      words: ["Morehouse", "Comcast", "Connecticut", "Yale"],
+      difficulty: 2,
+    },
+    {
+      category: "Tennis Companions",
+      words: ["Cliffe", "Guillermo", "Mike", "Nate"],
+      difficulty: 3,
+    },
+    {
+      category: "Handsome Men",
+      words: ["Dad", "Dan", "Squidward", "Ben"],
+      difficulty: 4,
+      imageSrc: "https://preview.redd.it/anybody-else-ironically-think-handsome-squidward-is-really-v0-1snloyd49aob1.jpg?width=1080&crop=smart&auto=webp&s=70fed1d710f73e19982746f5b6394ba440cc81ac",
+    },
+    {
+      category: "Missed Connections",
+      words: ["Bruce", "Annie", "Kennya", "Jenny"],
+      difficulty: 5,
+    },
+    {
+      category: "Al-____ Names",
+      words: ["Lie", "Ex", "F", "Bert"],
+      difficulty: 6,
+    }
+  ]
 ]

@@ -121,6 +121,7 @@ export function isGuessesFromGame({ gameData, submittedGuesses }) {
   return isSubset;
 }
 
+// BEN TODO
 export const generateEmojiGrid = (gameData, submittedGuesses) => {
   const wordToDifficultyMap = {};
   const tiles = getEmojiTiles();
@@ -145,16 +146,7 @@ export const generateEmojiGrid = (gameData, submittedGuesses) => {
 
     const emojiRowForGuess = wordDifficultiesArray
       .map((wordDifficulty) => {
-        switch (wordDifficulty) {
-          case 1:
-            return tiles[0];
-          case 2:
-            return tiles[1];
-          case 3:
-            return tiles[2];
-          case 4:
-            return tiles[3];
-        }
+        return tiles[wordDifficulty-1]
       })
       .join("");
 
@@ -166,9 +158,11 @@ export const generateEmojiGrid = (gameData, submittedGuesses) => {
 
 export function getEmojiTiles() {
   let tiles = [];
-  tiles.push("🟩");
   tiles.push("🟨");
-  tiles.push("🟪");
+  tiles.push("🟩");
   tiles.push("🟦");
+  tiles.push("🟧");
+  tiles.push("🇺🇳");
+  tiles.push("🟪");
   return tiles;
 }
